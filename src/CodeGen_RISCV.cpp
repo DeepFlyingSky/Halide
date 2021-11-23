@@ -9,10 +9,10 @@ using std::string;
 
 namespace {
 
-/** A code generator that emits mips code from a given Halide stmt. */
+/** A code generator that emits riscv code from a given Halide stmt. */
 class CodeGen_RISCV : public CodeGen_Posix {
 public:
-    /** Create a mips code generator. Processor features can be
+    /** Create a riscv code generator. Processor features can be
      * enabled using the appropriate flags in the target struct. */
     CodeGen_RISCV(const Target &);
 
